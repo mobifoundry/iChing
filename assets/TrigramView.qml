@@ -48,42 +48,40 @@ Container {
    ImageView {
        id: imageView
       imageSource: "asset:///images/ichingcir.png"
+      scaleX: 1.2
+      scaleY: 1.2
        layoutProperties: AbsoluteLayoutProperties {
-           positionX: 42
-           positionY: 42
-       }
-   }  
-  // The overlay image that sits on top of the postcard image
-   ImageView {
-       imageSource: "asset:///images/overlay.png"
-   }
-   // The last part of our custom component is a TextArea that we'll use to add some text on top. 
-   // The TextArea needs an id property so that we can dynamically change the text that is being displayed.
-   
-  // Along with the id property, there are other properties that must be set. 
-  // The positioning and size of the text area are set using the layoutProperties, preferredWidth, 
-  // and preferredHeight properties. 
-  // To make our greeting stand out on our postcard, we set the textStyle to bold and white. 
-  // We also set the editable property to false so that the end user can't modify the text.
-  // The text displayed on the postcard
-  
-       TextArea {
-           id: textArea
-           text: "                                 "
-           preferredWidth: 400
-           preferredHeight: 400
-           backgroundVisible: false
-           editable: false
-            
-           textStyle {
-               fontWeight: FontWeight.Bold
-               color: Color.create ("#333333")
-           }
-            
-           layoutProperties: AbsoluteLayoutProperties {
-               positionY: 20
-               positionX: 25
-           }
-           
-       }
- } // end of root container         
+            positionY: 20.0
+            positionX: 60.0
+        }
+ 
+    }
+    // The overlay image that sits on top of the postcard image
+    ImageView {
+        imageSource: "asset:///images/overlay.png"
+       preferredWidth: 300
+          preferredHeight: 250
+        visible: false
+    }
+    // The last part of our custom component is a TextArea that we'll use to add some text on top.
+    // The TextArea needs an id property so that we can dynamically change the text that is being displayed.
+
+    // Along with the id property, there are other properties that must be set.
+    // The positioning and size of the text area are set using the layoutProperties, preferredWidth,
+    // and preferredHeight properties.
+    // To make our greeting stand out on our postcard, we set the textStyle to bold and white.
+    // We also set the editable property to false so that the end user can't modify the text.
+    // The text displayed on the postcard
+    TextArea {
+        id: textArea
+        text: "                                 "
+        preferredWidth: 200
+        preferredHeight: 200
+        backgroundVisible: false
+        editable: false
+        textStyle {
+            fontWeight: FontWeight.Bold
+            color: Color.create("#333333")
+        }
+    }
+}// end of root container
