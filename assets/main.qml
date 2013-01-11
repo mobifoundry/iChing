@@ -16,82 +16,107 @@ import "hexagrams.js" as Hexagram
 Page {
     id: iChing
     titleBar: TitleBar {
+        id: titlebarlabel
         title: "iChing by mobiFoundry.com "
         visibility: ChromeVisibility.Visible
         kind: TitleBarKind.Default
+    }
+    paneProperties: NavigationPaneProperties {
+        backButton: ActionItem {
+        }
     }
     Container {
         id: greetingPhrase
         background: Color.create("#EE0000")
         leftPadding: 50
         rightPadding: 50
-        topPadding: 250
+        topPadding: 150
 
         // The custom component
+        layout: StackLayout {
+        }
+        topMargin: 1.0
+        bottomMargin: 1.0
+        layoutProperties: StackLayoutProperties {
+        }
+        scaleX: 1.0
         Label {
-            id: uppertrigramlabel 
+            id: hexigram
+            text: ""
+            visible: true
+            textStyle.fontSizeValue: 8.0
+            textStyle.color: Color.Blue
+            multiline: true
+        }
+        Label {
+            id: uppertrigramlabel
             text: "Upper Trigram"
             textStyle.color: Color.Blue
             textStyle.fontWeight: FontWeight.W900
             textStyle.fontSizeValue: 8.0
             visible: false
         }
+        Label {
+            textStyle.fontSizeValue: 1.0
+        }
         TrigramView {
             id: uppertrigram
             leftPadding: 0
             rightPadding: 0
-            topPadding: 0
-            bottomPadding: 0
+            topPadding: 1.0
+            bottomPadding: 1.0
             horizontalAlignment: HorizontalAlignment.Center
             verticalAlignment: VerticalAlignment.Center
             visible: true
+            opacity: 0.9
+            scaleX: 1.0
         }
         Label {
-             id: lowertrigramlabel            
+            id: lowertrigramlabel
             text: "Lower Trigram"
             textStyle.fontSizeValue: 8.0
             textStyle.color: Color.Blue
             textStyle.fontWeight: FontWeight.W900
             visible: false
         }
+        Label {
+            textStyle.fontStyle: FontStyle.Normal
+            textStyle.fontSizeValue: 1.0
+        }
         TrigramView {
             id: lowertrigram
             leftPadding: 0
             rightPadding: 0
-            topPadding: 0
-            bottomPadding: 0 
-                horizontalAlignment: HorizontalAlignment.Center
-                 verticalAlignment: VerticalAlignment.Center
+            topPadding: 1.0
+            bottomPadding: 0
+            horizontalAlignment: HorizontalAlignment.Center
+            verticalAlignment: VerticalAlignment.Center
             visible: false
+            opacity: 0.9
         }
         Container {
             leftPadding: 50
             rightPadding: 50
- 
             horizontalAlignment: HorizontalAlignment.Center
             verticalAlignment: VerticalAlignment.Center
             // The button used to generate a new trigram
             Button {
-                text: " Cast iChing "
+                text: "Concentrate then press to Cast"
                 onClicked: {
                     //                greetingPhrase.text = "                        ";
                     createTrigram(); // Invoke createTrigram() when the button is clicked
                 }
-            } // end button
-        }
-        Label {
-            id: hexigram
-            text: ""
-            visible: true
+            }            // end button
         }
 
         // end Container of button
     }
- 
 
     // Generates a new Trigram
     function createTrigram() {
-   
+        lowertrigram.visible = true;
+        lowertrigramlabel.visible = true;
+        uppertrigramlabel.visible = true;
         // Choose a random of 8 Trigrams, get random between 1 and 8.
         var ut = Math.ceil(Math.random() * 8)
         switch (ut) {
@@ -343,19 +368,17 @@ Page {
                 lowertrigram.text = greetingPhrase.text
                 lowertrigram.image = "asset:///images/ichingcir.png"
         } // Ends the switch statement
-        lowertrigram.visible = true 
-        lowertrigramlabel.visible = true; 
-        uppertrigramlabel.visible = true;
+ 
         // Rotate the whole component to a random number between
         // -10 and 10 degrees.
         uppertrigram.rotationZ = (Math.random() * 20) - 10
         lowertrigram.rotationZ = (Math.random() * 20) - 10
         // Scale the whole component to a random number between
         // 0.7 and 1.2
-        var s = Math.random() * 0.5 + 0.7
+        var s = Math.random() * 1.5 + 0.7
         uppertrigram.scaleX = s
         uppertrigram.scaleY = s
-        var s = Math.random() * 0.5 + 0.7
+        var s = Math.random() * 1.5 + 0.7
         lowertrigram.scaleX = s
         lowertrigram.scaleY = s
     }    // Ends the createTrigram() function

@@ -8,7 +8,8 @@
  */
 
 function chien(){
-    hexigram.text = "Force/Persisting, Ch'ien (KHIEN)";		
+    hexigram.text = "Force/Persisting, Ch'ien (KHIEN)";	
+
       //  Hexagram Number 01
     //  Keyword(s): The Creative Principle 
     //  Symbolic of: the vital spirit of heaven 

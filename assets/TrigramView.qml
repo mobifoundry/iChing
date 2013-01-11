@@ -48,8 +48,8 @@ Container {
    ImageView {
        id: imageView
       imageSource: "asset:///images/ichingcir.png"
-      scaleX: 1.2
-      scaleY: 1.2
+      scaleX: 1.0
+      scaleY: 1.0
        layoutProperties: AbsoluteLayoutProperties {
             positionY: 20.0
             positionX: 60.0
@@ -59,7 +59,7 @@ Container {
     // The overlay image that sits on top of the postcard image
     ImageView {
         imageSource: "asset:///images/overlay.png"
-       preferredWidth: 300
+       preferredWidth: 400
           preferredHeight: 250
         visible: false
     }
