@@ -8,7 +8,7 @@
  */
 
 function chien(){
-    hexigram.text = "Force/Persisting, Ch'ien (KHIEN)";	
+    hexagram.text = "Force/Persisting, Ch'ien (KHIEN)";	
 
       //  Hexagram Number 01
     //  Keyword(s): The Creative Principle 
@@ -30,7 +30,7 @@ function chien(){
  * hexagram 02
  */
 function kun(){
-    hexigram.text = "Field/Yielding, K'un (KHWĂN)";		
+    hexagram.text = "Field/Yielding, K'un (KHWĂN)";		
 //	Hexagram Number 02
 //	Keyword(s): Receptive 
 //	Symbolic of: a multitude of things
@@ -57,7 +57,7 @@ function kun(){
  * hexagram 03
  */
 function chun() {
-    hexigram.text = "Sprouting, Chun (KUN)";			
+    hexagram.text = "Sprouting, Chun (KUN)";			
 //	Hexagram Number 03
 //	Keyword(s): Difficult Beginnings 
 //	Symbolic of: difficulty in getting started
@@ -84,7 +84,7 @@ function chun() {
  * hexagram 04
  */
 function meng(){
-    hexigram.text = "Enveloping, Meng (MĂNG)";			
+    hexagram.text = "Enveloping, Meng (MĂNG)";			
 //	Hexagram Number 04
 //	Keyword(s): Youth 
 //	Symbolic of: being caught
@@ -110,7 +110,7 @@ function meng(){
  * hexagram 05
  */
 function hsu(){
-    hexigram.text = "Attending, Hsu (HSÜ)";		
+    hexagram.text = "Attending, Hsu (HSÜ)";		
 //Hexagram Number 05
 //	Keyword(s): contemplation 
 //	Symbolic of: waiting
@@ -139,7 +139,7 @@ function hsu(){
  */
 
 function sung(){
-    hexigram.text = "Arguing, Sung (SUNG)";	
+    hexagram.text = "Arguing, Sung (SUNG)";	
 //	Hexagram Number 06
 //	Keyword(s): Conflict 
 //	Symbolic of: disagreements and conflicts
@@ -168,7 +168,7 @@ function sung(){
  */
 
 function shih(){
-    hexigram.text = "Legions/Leading, Shih (SZE)";
+    hexagram.text = "Legions/Leading, Shih (SZE)";
 // Hexagram Number 07
 //	Keyword(s): An Army 
 //	Symbolic of: the mass of humanity
@@ -195,7 +195,7 @@ function shih(){
  * hexagram 08
  */
 function gpi(){
-    hexigram.text = "Grouping, Pi (PÎ )";
+    hexagram.text = "Grouping, Pi (PÎ )";
 //Hexagram Number 08
 //	Keyword(s): Union
 //	symbolic of: a banding together
@@ -222,7 +222,7 @@ function gpi(){
  * hexagram 09
  */
 function hsiao(){
-    hexigram.text = "Accumulating Small: Small Hsiao (HSIÂO KHÛ)";	
+    hexagram.text = "Accumulating Small: Small Hsiao (HSIÂO KHÛ)";	
 //	Hexagram Number 09
 //	Keyword(s): Restraining
 //	Symbolic of: some small involvement
@@ -248,7 +248,7 @@ function hsiao(){
  * hexagram 10
  */
 function tlu(){
-    hexigram.text = "Treading, Lu (LÎ)";	
+    hexagram.text = "Treading, Lu (LÎ)";	
 //	Hexagram Number 10
 //	Keyword(s): Treading Wisely
 //	Symbolic of: smug, self satisfied, self confidence
@@ -273,6 +273,7 @@ function tlu(){
  * hexagram 11
  */
 function tai() {
+	   hexagram.text = "THÂI HEXAGRAM, rising above any problems";		
 //	Hexagram Number 11
 //	Keyword(s): Peace
 //	Symbolic of: rising above any problems
@@ -298,7 +299,7 @@ function tai() {
  * 
  */
 function pin(){
-    hexigram.text = "Obstruction, Pin (PHÎ)";	
+    hexagram.text = "Obstruction, Pin (PHÎ)";	
 //	Hexagram Number 12
 //	Keyword(s): Disharmony
 //	Symbolic of: stagnation
@@ -328,7 +329,7 @@ function pin(){
  */
 
 function tung(){
-    hexigram.text = "Concording People: Concord, T'ung (THUNG ZĂN)"	;
+    hexagram.text = "Concording People: Concord, T'ung (THUNG ZĂN)"	;
 //	Hexagram Number 13
 //	Keyword(s): Companionship
 //	Symbolic of: persons with affinity for each other
@@ -354,7 +355,7 @@ function tung(){
  * hexagram 14
  */
 function gpta(){
-    hexigram.text = "Great Possessing: Great, Ta (TÂ YÛ)";	
+    hexagram.text = "Great Possessing: Great, Ta (TÂ YÛ)";	
 //	Hexagram Number 14
 //	Keyword(s): Abundant Possessions
 //	Symbolic of: having great possessions
@@ -388,7 +389,7 @@ function khien(){
                   //  ************
                   //  *****  *****
                   //  *****  *****               
-                     hexigram.text = "Humbling, Ch'ien (KHIEN)";
+                     hexagram.text = "Humbling, Ch'ien (KHIEN)";
  //Hexagram Number 15
  //Keyword(s): Modesty
  //Symbolic of: biting one's tongue
@@ -415,7 +416,7 @@ function khien(){
  * hexagram 16
  */
 function yu(){
-    hexigram.text = "Providing For/Responding, Yu (YÜ)";	
+    hexagram.text = "Providing For/Responding, Yu (YÜ)";	
 //	Hexagram Number 16
 //	Keyword(s): Enthusiasm
 //	Symbolic of: an eagerness to begin
@@ -441,7 +442,7 @@ function yu(){
  * hexagram 17
  */
 function sui(){
-    hexigram.text = "Following, Sui (SUI)";	
+    hexagram.text = "Following, Sui (SUI)";	
 //	Hexagram Number 17
 //	Keyword(s): Following
 //	Symbolic of: joining in obediently
@@ -467,7 +468,7 @@ function sui(){
  * hexagram 18
  */
 function ku(){
-    hexigram.text = "Corrupt/Renovating, Ku (KÛ)";	
+    hexagram.text = "Corrupt/Renovating, Ku (KÛ)";	
 //	Hexagram Number 18
 //	Keyword(s): Repairing the Damage
 //	Symbolic of: inner turmoil and disharmony
@@ -492,7 +493,7 @@ function ku(){
  * hexagram 19
  */
 function lin(){
-    hexigram.text = "Nearing, Lin (LIN)";	
+    hexagram.text = "Nearing, Lin (LIN)";	
 //	Hexagram Number 19
 //	Keyword(s): Conduct
 //	Symbolic of: different classes of people
@@ -517,7 +518,7 @@ function lin(){
  * hexagram 20
  */
 function kuan(){
-    hexigram.text = "Viewing, Kuan (KWÂN)";	
+    hexagram.text = "Viewing, Kuan (KWÂN)";	
 //	Hexagram Number 20
 //	Keyword(s): Contemplation
 //	Symbolic of: looking, observing and confronting
@@ -543,7 +544,7 @@ function kuan(){
  * hexagram 21 
  */
 function shih(){
-    hexigram.text = "Gnawing and Biting: Gnaw, Shih (SHIH HO)";	
+    hexagram.text = "Gnawing and Biting: Gnaw, Shih (SHIH HO)";	
 //	Hexagram Number 21
 //	Keyword(s): Biting Through
 //	Symbolic of: hate
@@ -568,7 +569,7 @@ function shih(){
  * hexagram 22
  */
 function api(){
-    hexigram.text = "Adorning, Pi (PÎ)";	
+    hexagram.text = "Adorning, Pi (PÎ)";	
 //	Hexagram Number 22
 //	Keyword(s): Gracefulness
 //	Symbolic of: poise, beauty and grace
@@ -593,7 +594,7 @@ function api(){
  * hexagram 23
  */
 function po(){
-    hexigram.text = "Stripping, Po (PO)";	
+    hexagram.text = "Stripping, Po (PO)";	
 //	Hexagram Number 23
 //	Keyword(s): Disintegration
 //	Symbolic of: the finality of death
@@ -619,7 +620,7 @@ function po(){
  * hexagram 24
  */
 function fu(){
-    hexigram.text = "Returning, Fu (FÛ)";	
+    hexagram.text = "Returning, Fu (FÛ)";	
 //	Hexagram Number 24
 //	Keyword(s): Returning
 //	Symbolic of: a turning back
@@ -645,7 +646,7 @@ function fu(){
  * hexagram 25
  */
 function wu(){
-    hexigram.text = "Without Embroiling: Without, Wu (WÛ)";	
+    hexagram.text = "Without Embroiling: Without, Wu (WÛ)";	
 //	Hexagram Number 25
 //	Keyword(s): Simplicity
 //	Symbolic of: innocence
@@ -672,7 +673,7 @@ function wu(){
  * hexagram 26
  */
 function gata(){
-    hexigram.text = "Great Accumulating: Great, Ta (TÂ KHÛ)";	
+    hexagram.text = "Great Accumulating: Great, Ta (TÂ KHÛ)";	
 //	Hexagram Number 26
 //	Keyword(s): Restraining Force
 //	Symbolic of: a heavy involvement
@@ -697,7 +698,7 @@ function gata(){
  * hexagram 27
  */
 function yi(){
-    hexigram.text = "Jaws/Swallowing, Yi (I)";	
+    hexagram.text = "Jaws/Swallowing, Yi (I)";	
 //	Hexagram Number 27
 //	Keyword(s): Nourishment
 //	Symbolic of: nourishment
@@ -723,7 +724,7 @@ function yi(){
  * hexagram 28
  */
 function geta(){
-    hexigram.text = "Great Exceeding: Great, Ta (TÂ KWO)";	
+    hexagram.text = "Great Exceeding: Great, Ta (TÂ KWO)";	
 //	Hexagram Number 28
 //	Keyword(s): Excessive Greatness
 //	Symbolic of: huge excess
@@ -748,7 +749,7 @@ function geta(){
  * hexagram 29
  */
 function hsi(){
-    hexigram.text = "Repeating Gorge: Repeating, Hsi (KHAN)";	
+    hexagram.text = "Repeating Gorge: Repeating, Hsi (KHAN)";	
 //	Hexagram Number 29
 //	Keyword(s): The Deep
 //	Symbolic of: the dire and abysmal
@@ -774,7 +775,7 @@ function hsi(){
  * hexagram 30
  */
 function li(){
-    hexigram.text = "Radiance, Li (LÎ)";	
+    hexagram.text = "Radiance, Li (LÎ)";	
 //	Hexagram Number 30
 //	Keyword(s): Fire
 ////	Symbolic of: clinging
@@ -800,7 +801,7 @@ function li(){
  * hexagram 31
  */
 function hsien(){
-    hexigram.text = "Conjoining, Hsien (HSIEN)";	
+    hexagram.text = "Conjoining, Hsien (HSIEN)";	
 //	Hexagram Number 31
 //	Keyword(s): Influence
 //	Symbolic of: something heartfelt
@@ -826,7 +827,7 @@ function hsien(){
  * hexagram 32
  */
 function heng() {
-    hexigram.text = "Persevering, Heng (HĂNG)";	
+    hexagram.text = "Persevering, Heng (HĂNG)";	
 //	Hexagram Number 32
 //	Keyword(s): Continuity
 //	Symbolic of: constancy
@@ -860,7 +861,7 @@ function thun(){
                    //  ************
                    //  *****  *****
                    //  *****  *****                               
-                    hexigram.text = "Retiring, Tun (THUN)";
+                    hexagram.text = "Retiring, Tun (THUN)";
  //Hexagram Number 33
  //Keyword(s): Retreat
  //Symbolic of: running away
@@ -886,7 +887,7 @@ function thun(){
  * hexagram 34
  */
 function gita(){
-    hexigram.text = "Great Invigorating: Great, Ta (TÂ KWANG)";	
+    hexagram.text = "Great Invigorating: Great, Ta (TÂ KWANG)";	
 //	Hexagram Number 34
 //	Keyword(s): Great Power
 //	Symbolic of: great wisdom
@@ -914,7 +915,7 @@ function gita(){
  * hexagram 35 
  */
 function chin(){
-	
+    hexagram.text = "ZIN HEXAGRAM, meeting the great man";		
 //	Hexagram Number 35
 //	Keyword(s): Progress
 //	Symbolic of: meeting the great man
@@ -940,7 +941,7 @@ function chin(){
  * hexagram 36
  */
 function ming(){
-	
+    hexagram.text = "MING Î HEXAGRAM, Darkening of the Light";			
 //	Hexagram Number 36
 //	Keyword(s): Darkening of the Light
 //	Symbolic of: a darkening
@@ -966,7 +967,7 @@ function ming(){
  * hexagram 37
  */
 function chia(){
-	hexigram.text = "Dwelling People: Dwell, Chia (KIÂ ZĂN)";			
+	hexagram.text = "Dwelling People: Dwell, Chia (KIÂ ZĂN)";			
 //	Hexagram Number 37
 //	Keyword(s): The Family
 //	Symbolic of: the family type
@@ -993,7 +994,7 @@ function chia(){
  * hexagram 38
  */
 function kuei() {
-	hexigram.text ="Polarising, K'uei (KHWEI)";
+	hexagram.text ="Polarising, K'uei (KHWEI)";
 //	Hexagram Number 38
 //	Keyword(s): Neutrality and Disunity
 //	Symbolic of: opposition
@@ -1019,7 +1020,7 @@ function kuei() {
  * hexagram 39
  */
 function chien(){
-	hexigram.text = "Limping/Difficulties, Chien (KIEN)";		
+	hexagram.text = "Limping/Difficulties, Chien (KIEN)";		
 //	Hexagram Number 39
 //	Keyword(s): Obstruction
 //	Symbolic of: great danger
@@ -1045,7 +1046,7 @@ function chien(){
  * hexagram 40
  */
 function hsieh(){
-	hexigram.text = "Loosening/Deliverence, Hsieh (KIEH)";			
+	hexagram.text = "Loosening/Deliverence, Hsieh (KIEH)";			
 //	Hexagram Number 40
 //	Keyword(s): Liberation
 //	Symbolic of: freedom from or liberation
@@ -1072,7 +1073,7 @@ function hsieh(){
  * hexagram 41
  */
 function dsun(){
-	hexigram.text = "Diminishing, Sun (SUN)";			
+	hexagram.text = "Diminishing, Sun (SUN)";			
 //	Hexagram Number 41
 //	Keyword(s): Decrease
 //	Symbolic of: loss
@@ -1098,7 +1099,7 @@ function dsun(){
  * hexagram 42
  */
 function yi() {
-	hexigram.text = "Augmenting, Yi (YÎ )";		
+	hexagram.text = "Augmenting, Yi (YÎ )";		
 //	Hexagram Number 42
 //	Keyword(s): Increase
 //	Symbolic of: an increase
@@ -1123,7 +1124,7 @@ function yi() {
  * hexagram 43 
  */
 function kuai(){
-	hexigram.text = "Resolution/Parting, Kuai (KWÂI)";		
+	hexagram.text = "Resolution/Parting, Kuai (KWÂI)";		
 //	Hexagram Number 43
 //	Keyword(s): Determination
 //	Symbolic of: resolve and determination
@@ -1149,7 +1150,7 @@ function kuai(){
  * hexagram 44
  */
 function kou(){
-	hexigram.text = "Welcoming/Coupling, Kou (KÂU)";			
+	hexagram.text = "Welcoming/Coupling, Kou (KÂU)";			
 //	Hexagram Number 44
 //	Keyword(s): Tempting Encounter
 //	Symbolic of: an encounter
@@ -1174,7 +1175,7 @@ function kou(){
  * hexagram 45
  */
 function tsui(){
-	hexigram.text = "Clustering, Ts'ui (ZHUI)";			
+	hexagram.text = "Clustering, Ts'ui (ZHUI)";			
 //	Hexagram Number 45
 //	Keyword(s): In Accord
 //	Symbolic of: a gathering
@@ -1200,7 +1201,7 @@ function tsui(){
  * hexagram 46
  */
 function sheng() {
-	hexigram.text = "Ascending, Sheng (SHĂNG)";			
+	hexagram.text = "Ascending, Sheng (SHĂNG)";			
 //	Hexagram Number 46
 //	Keyword(s): Pushing Upwards
 //	Symbolic of: climbing, ascending, moving upwards
@@ -1226,7 +1227,7 @@ function sheng() {
  * hexagram 47
  */
 function kun(){
-	hexigram.text = "Confining/Oppression, K'un (KHWĂN)";		
+	hexagram.text = "Confining/Oppression, K'un (KHWĂN)";		
 //	Hexagram Number 47
 //	Keyword(s): Exhaustion
 //	Symbolic of: oppression
@@ -1252,7 +1253,7 @@ function kun(){
  * hexagram 48
  */
 function ching(){
-	hexigram.text = " The Well, Ching (ZING)";		
+	hexagram.text = " The Well, Ching (ZING)";		
 //	Hexagram Number 48
 //	Keyword(s): The Well
 //	Symbolic of: a well
@@ -1278,7 +1279,7 @@ function ching(){
  * hexagram 49
  */
 function ko(){
-	hexigram.text = "Skinning/Revolution, Ko (KO)";			
+	hexagram.text = "Skinning/Revolution, Ko (KO)";			
 //	Hexagram Number 49
 //	Keyword(s): Revolution
 //	Symbolic of: revolution
@@ -1305,7 +1306,7 @@ function ko(){
  * hexagram 50
  */
 function ting(){
-	hexigram.text = "The Vessel/Holding, Ting (TING)";		
+	hexagram.text = "The Vessel/Holding, Ting (TING)";		
 //	Hexagram Number 50
 //	Keyword(s): The Cauldron
 //	Symbolic of: a cauldron
@@ -1331,7 +1332,7 @@ function ting(){
  * hexagram 51
  */
 function chen(){
-	hexigram.text = "Shake, Chen (KĂN)";	
+	hexagram.text = "Shake, Chen (KĂN)";	
 //	Hexagram Number 51
 //	Keyword(s): The Thunderclap
 //	Symbolic of: thunder
@@ -1378,7 +1379,7 @@ function kan(){
 	// S. The fifth SIX, divided, shows its subject keeping his jawbones at rest, so that his words are (all) orderly. Occasion for repentance will disappear.
 	// 6. The sixth NINE, undivided, shows its subject devotedly maintaining his restfulness. There will be good fortune.
 	                                   
-	hexigram.text = "Bound/Stabilising, Ken (KĂN)";
+	hexagram.text = "Bound/Stabilising, Ken (KĂN)";
 	                        
 	}
 /*
@@ -1394,7 +1395,7 @@ function kien() {
       //  ************
       //  *****  *****
       //  *****  *****                                 
-        hexigram.text = "Infiltrating/Gradual Advance, Chien (KIEN)";
+        hexagram.text = "Infiltrating/Gradual Advance, Chien (KIEN)";
 //Hexagram Number 53
 //Keyword(s): Development
 //Symbolic of: gradual development
@@ -1421,7 +1422,7 @@ function kien() {
  * hexagram 54
  */
 function kuei(){
-    hexigram.text = "Converting the Maiden:Convert, Kuei (KWEI MEI)";			
+    hexagram.text = "Converting the Maiden:Convert, Kuei (KWEI MEI)";			
 //	Hexagram Number 54
 //	Keyword(s): The Marrying Maiden
 //	Symbolic of: a marrying girl
@@ -1446,7 +1447,7 @@ function kuei(){
  * hexagram 55
  */
 function feng(){
-    hexigram.text = "Abounding, Feng (FĂNG)";			
+    hexagram.text = "Abounding, Feng (FĂNG)";			
 //	Hexagram Number 55
 //	Keyword(s): Greatness
 //	Symbolic of: greatness
@@ -1472,7 +1473,7 @@ function feng(){
  * hexagram 56
  */
 function lu(){
-    hexigram.text = "Sojourning/Quest, Lu (LÜ)";		
+    hexagram.text = "Sojourning/Quest, Lu (LÜ)";		
 //	Hexagram Number 56
 //	Keyword(s): The Stranger
 //	Symbolic of: exile
@@ -1498,7 +1499,7 @@ function lu(){
  * hexagram 57
  */
 function sun() {
-    hexigram.text = "Ground/Penetrating, Sun (SUN)";		
+    hexagram.text = "Ground/Penetrating, Sun (SUN)";		
 //	Hexagram Number 57
 //	Keyword(s): The Gentle
 //	Symbolic of: the wind
@@ -1525,7 +1526,7 @@ function sun() {
  * hexagram 58
  */
 function tui(){
-    hexigram.text = "Open/Expressing, Tui (TUI)";		
+    hexagram.text = "Open/Expressing, Tui (TUI)";		
 //	Hexagram Number 58
 //	Keyword(s): Joy
 //	Symbolic of: joyfulness
@@ -1551,7 +1552,7 @@ function tui(){
  * hexagram 59
  */
 function huan(){
-    hexigram.text = "Dispersing, Huan (HWÂN)";	
+    hexagram.text = "Dispersing, Huan (HWÂN)";	
 //	Hexagram Number 59
 //	Keyword(s): Dispersion
 //	Symbolic of: dispersion
@@ -1578,7 +1579,7 @@ function huan(){
  * 
  */
 function chieh() {
-    hexigram.text = "Articulating, Chieh (KIEH)";	
+    hexagram.text = "Articulating, Chieh (KIEH)";	
 //	Hexagram Number 60
 //	Keyword(s): Limitation
 //	Symbolic of: limitations and constraint
@@ -1603,7 +1604,7 @@ function chieh() {
  * hexagram 61
  */
 function chung(){
-    hexigram.text = " Center Accord: Center, Chung (KUNG FÛ)";	
+    hexagram.text = " Center Accord: Center, Chung (KUNG FÛ)";	
 //	Hexagram Number 61
 //	Keyword(s): Inner Truth
 //	Symbolic of: inner truth
@@ -1636,7 +1637,7 @@ function hsiao(){
                   //  ************
                   //  *****  *****
                   //  *****  *****                                  
-                     hexigram.text = "Small Exceeding: Small, Hsiao (HSIÂO KWO)";
+                     hexagram.text = "Small Exceeding: Small, Hsiao (HSIÂO KWO)";
   //Hexagram Number 62
   //Keyword(s): The Small Persist
  // Symbolic of: a tiny weakness or mistake
@@ -1662,7 +1663,7 @@ function hsiao(){
  * hexagram 63
  */
 function chi(){
-    hexigram.text = "Already Fording: Already, Chi (KÎ ZÎ)";		
+    hexagram.text = "Already Fording: Already, Chi (KÎ ZÎ)";		
 //	Hexagram Number 63
 //	Keyword(s): Completion
 //	Symbolic of: completion
@@ -1688,7 +1689,7 @@ function chi(){
 * hexagram 64
 */
 function wei(){
-    hexigram.text = "I Ching - Not Yet Fording: Not Yet, Wei ";	
+    hexagram.text = "I Ching - Not Yet Fording: Not Yet, Wei ";	
 //	Hexagram Number 64
 //	Keyword(s): Before Completion
 //	Symbolic of: before the finish or the end

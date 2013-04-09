@@ -17,9 +17,15 @@ Page {
     id: iChing
     titleBar: TitleBar {
         id: titlebarlabel
-        title: "iChing by mobiFoundry.com "
+        title: "iChing  "
         visibility: ChromeVisibility.Visible
+
         kind: TitleBarKind.Default
+        dismissAction: ActionItem {
+            id: logo
+          
+            imageSource: "asset:///images/default.png"
+        }
     }
     paneProperties: NavigationPaneProperties {
         backButton: ActionItem {
@@ -28,6 +34,7 @@ Page {
     Container {
         id: greetingPhrase
         background: Color.create("#EE0000")
+        
         leftPadding: 50
         rightPadding: 50
         topPadding: 150
@@ -41,7 +48,7 @@ Page {
         }
         scaleX: 1.0
         Label {
-            id: hexigram
+            id: hexagram
             text: ""
             visible: true
             textStyle.fontSizeValue: 8.0
@@ -101,12 +108,29 @@ Page {
             verticalAlignment: VerticalAlignment.Center
             // The button used to generate a new trigram
             Button {
+                id: castbutton
                 text: "Concentrate then press to Cast"
                 onClicked: {
                     //                greetingPhrase.text = "                        ";
                     createTrigram(); // Invoke createTrigram() when the button is clicked
                 }
-            }            // end button
+            }
+            ImageButton {
+                id: backbutton
+                defaultImageSource: "asset:///images/back.png"
+                pressedImageSource: "asset:///images/btn_home.png "
+                visible: false
+                onClicked: {
+                    castbutton.visible = true;
+                    backbutton.visible = false;
+                    lowertrigram.visible = false;
+                    lowertrigramlabel.visible = false;
+                    uppertrigramlabel.visible = false;
+                    uppertrigram.image = "asset:///images/ichingcir.png";
+                    hexagram.text = "";
+                }
+            }
+            // end button
         }
 
         // end Container of button
@@ -114,9 +138,11 @@ Page {
 
     // Generates a new Trigram
     function createTrigram() {
+        castbutton.visible = false;
         lowertrigram.visible = true;
         lowertrigramlabel.visible = true;
         uppertrigramlabel.visible = true;
+        backbutton.visible = true;
         // Choose a random of 8 Trigrams, get random between 1 and 8.
         var ut = Math.ceil(Math.random() * 8)
         switch (ut) {
@@ -175,11 +201,11 @@ Page {
                 //  *****  *****
                 lowertrigram.image = "asset:///images/bound_ken.png"
                 switch (ut) {
-                    case 1: Hexagram.kan();    // hexagram 1
+                    case 1: hexagram.kan();    // hexagram 1
                     break;
-                    case 2: Hexagram.khien();  // hexagram 34
+                    case 2: hexagram.khien();  // hexagram 34
                     break;
-                    case 3: Hexagram.thun();   // hexagram 5
+                    case 3: hexagram.thun();   // hexagram 5
                     break;  
                     case 4: Hexagram.hsiaokwo(); // hexagram 26
                     break;                   
@@ -187,9 +213,9 @@ Page {
                     break;  
                     case 6: Hexagram.hsiao(); // hexagram 09
                     break;
-                    case 7: Hexigram.gpta(); // hexigram 14 
+                    case 7: Hexagram.gpta(); // Hexagram 14 
                     break;  
-                    case 8: Hexigram.kuai(); // hexigram 43
+                    case 8: Hexagram.kuai(); // Hexagram 43
                     break;                                                               
                     default:
                     } // end switch statement 
@@ -211,9 +237,9 @@ Page {
                     break;  
                     case 6: Hexagram.hsiao(); // hexagram 42
                     break;
-                    case 7: Hexigram.shih(); // hexigram 21 
+                    case 7: Hexagram.shih(); // Hexagram 21 
                     break;  
-                    case 8: Hexigram.sui(); // hexigram 17
+                    case 8: Hexagram.sui(); // Hexagram 17
                     break;                                                               
                     default:
                     } // end switch statement                 
@@ -235,9 +261,9 @@ Page {
                      break;  
                      case 6: Hexagram.huan(); // hexagram 59
                      break;
-                     case 7: Hexigram.wei(); // hexigram 64
+                     case 7: Hexagram.wei(); // Hexagram 64
                      break;  
-                     case 8: Hexigram.kun(); // hexigram 47
+                     case 8: Hexagram.kun(); // Hexagram 47
                      break;                                                               
                      default:
                      } // end switch statement                                
@@ -259,9 +285,9 @@ Page {
                       break;  
                       case 6: Hexagram.kien(); // hexagram 53
                       break;
-                      case 7: Hexigram.lu(); // hexigram 56
+                      case 7: Hexagram.lu(); // Hexagram 56
                       break;  
-                      case 8: Hexigram.hsien(); // hexigram 31
+                      case 8: Hexagram.hsien(); // Hexagram 31
                       break;                                                               
                       default:
                       } // end switch statement                                               
@@ -283,9 +309,9 @@ Page {
                        break;  
                        case 6: Hexagram.kuan(); // hexagram 20
                        break;
-                       case 7: Hexigram.chin(); // hexigram 35
+                       case 7: Hexagram.chin(); // Hexagram 35
                        break;  
-                       case 8: Hexigram.tsui(); // hexigram 45
+                       case 8: Hexagram.tsui(); // Hexagram 45
                        break;                                                               
                        default:
                        } // end switch statement                                  
@@ -307,9 +333,9 @@ Page {
                         break;  
                         case 6: Hexagram.sun(); // hexagram 57
                         break;
-                        case 7: Hexigram.ting(); // hexigram 50
+                        case 7: Hexagram.ting(); // Hexagram 50
                         break;  
-                        case 8: Hexigram.geta(); // hexigram 28
+                        case 8: Hexagram.geta(); // Hexagram 28
                         break;                                                               
                         default:
                         } // end switch statement                                     
@@ -331,9 +357,9 @@ Page {
                          break;  
                          case 6: Hexagram.chia(); // hexagram 37
                          break;
-                         case 7: Hexigram.li(); // hexigram 30
+                         case 7: Hexagram.li(); // Hexagram 30
                          break;  
-                         case 8: Hexigram.ko(); // hexigram 49
+                         case 8: Hexagram.ko(); // Hexagram 49
                          break;                                                               
                          default:
                          } // end switch statement                                            
@@ -355,9 +381,9 @@ Page {
                          break;  
                          case 6: Hexagram.chung(); // hexagram 61
                          break;
-                         case 7: Hexigram.kuei(); // hexigram 38
+                         case 7: Hexagram.kuei(); // Hexagram 38
                          break;  
-                         case 8: Hexigram.tui(); // hexigram 58
+                         case 8: Hexagram.tui(); // Hexagram 58
                          break;                                                               
                          default:
                          } // end switch statement                                            
